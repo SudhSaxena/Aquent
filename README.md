@@ -1,4 +1,4 @@
-# Aquent
+# Order Records Sorter
 Source code for coding challenge.
 
 #### Design decisions:
