@@ -10,8 +10,8 @@ The whole application is divided into the parent package, a service layer and a 
 - Service layer also depends on DAO layer to write sorted values back to file.
 
 #### Sorting:
-This is lexicographical sorting while ignoring case, since this human entered data, pizza could be entered as Pizza as well,
-both of which should have the same order, and tie to be resolved based on epoch time.
+This is lexicographical sorting while ignoring case, since this is human entered data, pizza could be entered as Pizza as well,
+both of which should have the same order. Tie will be resolved based on epoch time.
 
 #### Frameworks used:
 - Maven
