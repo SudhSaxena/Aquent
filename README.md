@@ -3,11 +3,11 @@ Source code for coding challenge.
 
 #### Design decisions:
 The whole application is divided into the parent package, a service layer and a DAO layer. 
-	- The main driver is contained in the parent package. 
-	- The driver takes in the command line arguments for input and output filenames,
+- The main driver is contained in the parent package. 
+- The driver takes in the command line arguments for input and output filenames,
 	and calls service method with these filenames to perform sorting.
-	- Service layer depends on DAO object to get the collection containing input records.
-	- Service layer also depends on DAO layer to write sorted values back to file.
+- Service layer depends on DAO object to get the collection containing input records.
+- Service layer also depends on DAO layer to write sorted values back to file.
 
 #### Sorting:
 This is lexicographical sorting while ignoring case, since this human entered data, pizza could be entered as Pizza as well,
